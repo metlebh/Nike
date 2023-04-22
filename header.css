@@ -1,0 +1,312 @@
+.head1 {
+  height: 35px;
+  width: 100%;
+  background-color: #F5F5F5;
+  position: relative;
+}
+
+.hicon1 {
+  position: absolute;
+  top: 3px;
+  left: 48px;
+}
+
+.hicon2 {
+  position: absolute;
+  display: inline;
+  left: 50px;
+}
+
+.ha1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  padding-top: 5px;
+  padding-right: 60px;
+
+}
+
+.ha1 a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.head2 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.hicon2-1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  padding-bottom: 14px;
+}
+
+.head2a1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  gap: 20px;
+
+}
+
+.head2a1 a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.h2button {
+  position: absolute;
+  right: 150px;
+  top: 15px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 100px;
+  color: gray;
+  padding-right: 90px;
+}
+
+.hheart {
+  position: absolute;
+  top: 24px;
+  right: 120px;
+}
+
+.hbasket {
+  position: absolute;
+  top: 23px;
+  right: 80px;
+}
+
+.head3 {
+  width: 100%;
+   height: 60px;
+  background-color: #F5F5F5;
+}
+
+.head3sec1 {
+  height: 500px;
+}
+
+
+
+.container,
+.item {
+  width: 500px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  height: 90px;
+  text-align: center;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.item {
+  position: absolute;
+  top: -20px;
+  left: 500px;
+}
+
+.first {
+  left: 0;
+  opacity: 1;
+  z-index: 0;
+}
+
+.first {
+  animation: cycleone 20s ease-in-out infinite;
+}
+
+.second {
+  animation: cycletwo 20s ease-in-out infinite;
+}
+
+.third {
+  animation: cyclethree 20s ease-in-out infinite;
+}
+
+.fourth {
+  animation: cyclefour 20s ease-in-out infinite;
+}
+
+@keyframes cycleone {
+  0% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  20% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  25% {
+    left: -500px;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  26% {
+    left: -500px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  27% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  95% {
+    left: 500px;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+}
+
+@keyframes cycletwo {
+  0% {
+    left: 500px;
+    opacity: 0;
+  }
+
+  20% {
+    left: 500px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 0px;
+    opacity: 1;
+  }
+
+  45% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  50% {
+    left: -500px;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  51% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  100% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cyclethree {
+  0% {
+    left: 500px;
+    opacity: 0;
+  }
+
+  45% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  50% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  70% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  75% {
+    left: -500px;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  76% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  100% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cyclefour {
+  0% {
+    left: 500px;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  70% {
+    left: 500px;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  75% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  95% {
+    left: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  100% {
+    left: -500px;
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
+
+@font-face {
+  font-family: 'Seahawks';
+  src: url('https://dylanjharris.net/wp-content/themes/_djh/fonts/seahawks.eot');
+  src: url('https://dylanjharris.net/wp-content/themes/_djh/fonts/seahawks.eot?#iefix') format('embedded-opentype'), url('https://dylanjharris.net/wp-content/themes/_djh/fonts/seahawks.woff2') format('woff2'), url('https://dylanjharris.net/wp-content/themes/_djh/fonts/seahawks.woff') format('woff'), url('https://dylanjharris.net/wp-content/themes/_djh/fonts/seahawks.ttf') format('truetype'), url('https://dylanjharris.net/wp-content/themes/_djh/fonts/seahawks.svg#svgFontName') format('svg');
+}
